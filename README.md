@@ -45,7 +45,9 @@ Authors
 -------
 
 Original author: Sergey Lalov
+
 Original source code can be found at [Google code][origin].
+
 The original source code was adopted and fixed by Xnap Development Team in 2017
 
 License
