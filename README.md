@@ -5,6 +5,7 @@ XnapBox Data Grabber in Python
 This is a Python example of grabbing data from XnapBox. You can collect the face image and metadata. 
 
 ## Prerequisites
+Python 2.7+ and twisted
 ```
 sudo pip install twisted[tls]
 ```
