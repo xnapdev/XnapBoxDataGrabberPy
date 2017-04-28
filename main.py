@@ -63,8 +63,8 @@ def main():
     config.update(vars(args))
     # Make a connection
     print 'XnapBox DataGrabber Python'
-    reactor.connectTCP(config['ip'], config['port'], MJPEGFactory(config))
-    reactor.run()    
+    reactor.connectTCP(config['ip'], config['port'], MJPEGFactory(config)) #@UndefinedVariable
+    reactor.run() #@UndefinedVariable
     print 'XnapBox DataGrabber Python stopped.'
 
 # this only runs if the module was *not* imported
